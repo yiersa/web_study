@@ -1,11 +1,14 @@
 window.onload = function () {
-    var example1 = new Vue({
-        el: '#example-1',
-        data: {
-            items: [
-                { message: 'Foo' },
-                { message: 'Bar' }
-            ]
-        }
-    })
+  // 定义
+var MyComponent = Vue.extend({
+template: '<div>A custom component!</div>'
+})
+
+// 注册
+Vue.component('my-component', MyComponent)
+
+// 创建根实例
+new Vue({
+el: '#example'
+})
 }
