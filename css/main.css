@@ -123,5 +123,50 @@ margin-top: 8px;
 .ad{
     height: 320px;
     margin-top: 5px;
+    overflow: hidden;
+
+}
+.main{
+    height: 320px;
+    margin-top: 5px;
     background-color: #fff;
+}
+.news{
+    width: 340px;
+}
+.products{
+    width: 410px;
+    margin: 0 7px;
+}
+.sidebar{
+    width: 230px;
+    float: left;
+    display: inline;
+    height: 250px;
+}
+.news, .products{
+    float: left;
+    border-bottom: 2px solide #e8e8e8;
+}
+.title{
+    height: 35px;
+    border-bottom: 2px solide #e8e8e8;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    line-height: 35px;
+    font-weight: bold;
+    color: #786f66;
+}
+.title_left{
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+}
+.title_right{
+    width: 20%;
+    float: right;
+    text-align: right;
+}
+.title_right a{
+    
 }
